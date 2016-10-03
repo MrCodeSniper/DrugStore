@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menu_myinfo_btn"
+        style="@style/setting_item">
+
+        <ImageView
+            android:layout_width="@dimen/setting_icon_size"
+            android:layout_height="@dimen/setting_icon_size"
+            android:src="@drawable/dd_menu_info_2x" />
+
+        <TextView
+            style="@style/settingItemText"
+            android:text="@string/menu_my_info" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/enter" />
+    </LinearLayout>
+
+    <include layout="@layout/user_list_line" />
+</LinearLayout>

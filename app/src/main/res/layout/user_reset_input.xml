@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="15.0dip">
+
+        <LinearLayout
+            android:id="@+id/ll_username"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="9.0dip">
+
+            <ImageView
+                android:id="@+id/reset_input_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd_login_icon_phone_2x" />
+
+            <EditText
+                android:id="@+id/reset_input_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:background="@null"
+                android:hint="用户名"
+                android:includeFontPadding="false"
+                android:textColor="#666"
+                android:textSize="14sp">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="9.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd_login_icon_psw_2x" />
+
+            <EditText
+                android:id="@+id/reset_input_pass"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:background="@null"
+                android:hint="密码"
+                android:includeFontPadding="false"
+                android:inputType="numberPassword"
+                android:textColor="#666"
+                android:textSize="14sp">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_comfirm_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="9.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd_login_icon_psw_2x" />
+
+            <EditText
+                android:id="@+id/reset_input_pass2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:background="@null"
+                android:hint="确认密码"
+                android:includeFontPadding="false"
+                android:inputType="numberPassword"
+                android:textColor="#666"
+                android:textSize="14sp">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_agree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/regist_agree_check"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/user_reg_checked"
+                android:button="@null"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:paddingLeft="6.0dip"
+                android:text="@string/had_read_label"
+                android:textColor="#ffb6b6b6"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/regist_agreement"
+                android:layout_width="137.0dip"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/had_read_title"
+                android:textColor="#93d9f9"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/apb_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="注册"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            app:pb_colorComplete="@color/green_complete"
+            app:pb_colorError="@color/red_error"
+            app:pb_colorNormal="@color/blue_normal"
+            app:pb_colorPressed="@color/blue_pressed"
+            app:pb_colorProgress="@color/purple_progress"
+            app:pb_textComplete="注册成功"
+            app:pb_textError="注册失败"
+            app:pb_textProgress="请稍等..." />
+
+    </LinearLayout>
+</LinearLayout>

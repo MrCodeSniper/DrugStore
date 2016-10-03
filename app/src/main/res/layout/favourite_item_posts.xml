@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10.0dip">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="favor_brief"
+                android:id="@+id/favor_brief"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="1.2"
+                android:maxLines="2"
+                android:textColor="#ff999999"
+                android:textSize="13.0sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="70.0dip"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="20.0dip">
+
+            <ImageView
+                android:id="@+id/favor_pic"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ImageView
+                android:id="@+id/favor_playimg"
+                android:layout_width="25.0dip"
+                android:layout_height="25.0dip"
+                android:layout_gravity="center"
+                android:src="@drawable/dd_item_playicon_2x" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#fff1f1f1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25.0dip"
+        android:background="#fffcfcfc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:text="帖子"
+            android:textColor="#fff4715f"
+            android:textSize="11.0sp" />
+
+        <TextView
+            android:id="@+id/favor_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:includeFontPadding="false"
+            android:paddingRight="10.0dip"
+            android:textColor="#ff999999"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#fff1f1f1" />
+</LinearLayout>

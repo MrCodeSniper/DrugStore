@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical"  android:padding="@dimen/btg_global_margin_large" android:layout_width="@dimen/btg_guide_view_width" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/btg_global_font_big" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btg_guide_sub_0" />
+        <TextView android:textSize="@dimen/btg_global_font_less_big" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btg_global_margin_tiny" android:layout_marginTop="@dimen/btg_global_margin_standard" android:text="@string/btg_guide_sub_1" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/btg_global_margin_standard" android:src="@drawable/btg_icon_tips_tag_1" />
+        <TextView android:textSize="@dimen/btg_global_font_less_big" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btg_global_margin_tiny" android:layout_marginTop="@dimen/btg_global_margin_standard" android:text="@string/btg_guide_sub_2" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/btg_global_margin_standard" android:src="@drawable/btg_icon_tips_tag_2" />
+        <TextView android:textSize="@dimen/btg_global_font_less_big" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/btg_global_margin_tiny" android:layout_marginTop="@dimen/btg_global_margin_standard" android:text="@string/btg_guide_sub_3" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/btg_global_margin_standard" android:src="@drawable/btg_icon_tips_tag_3" />
+        <Button android:textSize="@dimen/btg_global_font_big" android:textColor="@android:color/white" android:id="@+id/okButton"  android:layout_width="fill_parent" android:layout_height="@dimen/btg_guide_button_height" android:layout_marginTop="@dimen/btg_global_margin_great" android:text="@string/btg_global_got_it" />
+    </LinearLayout>
+</RelativeLayout>

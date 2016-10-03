@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/item_view" android:paddingLeft="15.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff8e8e8e" android:id="@+id/time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="08:30" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@+id/program_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="104幸福生活" android:layout_toRightOf="@+id/time_tv" />
+        <ImageView android:id="@+id/graph_img" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="#ffd5d4d8" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#fff3f3f3" android:paddingLeft="2.0dip" android:paddingTop="8.0dip" android:paddingRight="2.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@+id/gv_section_list" android:background="#ffffffff" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/publish_column_selector" android:choiceMode="singleChoice" android:layout_weight="1.0" />
+    <ListView android:id="@+id/gv_child_list" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/publish_column_selector" android:layout_weight="1.0" />
+</LinearLayout>

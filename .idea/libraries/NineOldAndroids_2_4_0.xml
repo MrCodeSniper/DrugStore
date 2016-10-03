@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NineOldAndroids-2.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/NineOldAndroids-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

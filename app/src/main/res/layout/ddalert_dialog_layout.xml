@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ddalert_window_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/ddalert_dialog_layout_padding">
+
+    <LinearLayout
+        android:id="@+id/ddalert_dialog_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ddalert_corners_tlr_normal"
+        android:orientation="vertical"
+        android:paddingBottom="16.0dip"
+        android:paddingLeft="@dimen/ddalert_dialog_content_padding_leftright"
+        android:paddingRight="@dimen/ddalert_dialog_content_padding_leftright"
+        android:paddingTop="@dimen/ddalert_dialog_content_padding_topbottom">
+
+        <TextView
+            android:id="@+id/ddalert_dialog_title_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/ddalert_dialog_title_msg_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/ddalert_dialog_title_textColor"
+            android:textSize="@dimen/ddalert_dialog_title_textSize" />
+
+        <TextView
+            android:id="@+id/ddalert_dialog_msg_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="@color/ddalert_dialog_msg_textColor"
+            android:textSize="@dimen/ddalert_dialog_msg_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ddalert_dialog_bottom_action_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/ddalert_menu_list_divider_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ddalert_dialog_cancel_btn"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/ddalert_corners_bl_selector"
+                android:gravity="center"
+                android:text="@string/ddalert_dialog_cancel_text"
+                android:textColor="@color/ddalert_dialog_okcancel_textColor"
+                android:textSize="@dimen/ddalert_dialog_okcancel_textSize" />
+
+            <View
+                android:id="@+id/ddalert_dialog_cancel_ok_divider"
+                android:layout_width="0.5dip"
+                android:layout_height="fill_parent"
+                android:background="@color/ddalert_menu_list_divider_color" />
+
+            <Button
+                android:id="@+id/ddalert_dialog_ok_btn"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/ddalert_corners_br_selector"
+                android:gravity="center"
+                android:text="@string/ddalert_dialog_ok_text"
+                android:textColor="@color/ddalert_dialog_okcancel_textColor"
+                android:textSize="@dimen/ddalert_dialog_okcancel_textSize" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/mix2_dialog_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/mix2_title_height"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:text="@string/mix2_dlg_title"
+        android:textColor="@color/mix2_dlg_title"
+        android:textSize="15.0sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffeeeeee" />
+
+    <include
+        layout="@layout/menu_dlg_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/mix2_margin_bottom"
+        android:layout_marginLeft="@dimen/mix2_margin_left"
+        android:layout_marginRight="@dimen/mix2_margin_right"
+        android:layout_marginTop="@dimen/mix2_margin_top" />
+</LinearLayout>

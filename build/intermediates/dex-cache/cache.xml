@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e7cb33d9f82d3b8521c6594b180f4dd9fc6d49f2">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\okhttp-3.3.1_c26512cbf981762b2a9facb62da2ccd2b8cd53ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.9.2\5e3bda828a80c7a21dfbe2308d1755759c2fd7b4\jsoup-1.9.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e3bda828a80c7a21dfbe2308d1755759c2fd7b4">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\jsoup-1.9.2_62eab2ae28fd6d6aae446320496b6e7442bdfc6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_751632f5337fe3a198d84446cd9440914d28168a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\BmobSDK_3.5.0_20160630.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\BmobSDK_3.5.0_20160630_adc36f2906ee22a8f8feb51dd74fae06645a4572.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bf94678214d9ab43a8deb5df90d0b3e6d619ff1e">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.github.d-max-spots-dialog-0.7_8dcb359c0508bf0211316e2096e08a76a561fea6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_062ad37633a99321e6a59b7344ab769e17e3db55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="81d41e53c215976ce172b9f61ef1e8fc2d67cf79">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.github.chrisbanes-PhotoView-1.3.0_4327f53c1e5c4251e7ce8f83f064b57a78f19136.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_bc6f9c262ddd9bcdac780475fde8e5924a2dd26a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="84a5e720e441032fc979314a4539f3d40079801b">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.ashokvarma.android-bottom-navigation-bar-1.3.0_04d453357cfb8db2a71db2d2d373585f4717d9c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\v1.9.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="21377185320779732882fcfaaf968ba157b3838b">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.github.CymChad-BaseRecyclerViewAdapterHelper-v1.9.7_91c0309e915799b20c1891c174c36412c113864d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\libs\okhttp-2.7.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2c0782541a970b3c15f5e742999ca264b34d0bd">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\okhttp-2.7.4_56ec87521453454d42ee25b051c7b9ecc76f668f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_6fca7757cad494f24bbee3a9ce5005635f863215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b8789199da44a084282fc10520a676d9db71879">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\instant-run_acf4c13feeba879111a62d1c639de1dd69e90384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_570243694a699abc499997535de771e697972d87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\okio-1.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bbeca71da43c8f4bc9ceedec002060f53437ad26">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\okio-1.7.0_7ad85189db154d1d68a760061093c614a7917ba4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd625f5e7bba8235782b5dc4244c3fd26953190f">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\gson-2.6.2_00089ccf786021d3a76193b76a85bfb36b7481b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxandroid-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="19beef6debb6a22febc28777464c71bfccbafe3d">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\rxandroid-1.2.0_79733fb58747117ee92f161ffe1e3e63448d35ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\libs\rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ac615240b277e7fd3950d7b35f73b733f310cede">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_1574b67f0061f708e13ebadd2ce4c9304e80e9a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.github.frank-zhu\pullzoomview\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="050ae7aeaf7c02f60dd80f254c251694b79f36fa">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.github.frank-zhu-pullzoomview-1.0.0_f885bf1487b146c10c330d86150cfbf7cdabf4c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.yuyh.easyadapter\library\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d274320550b0352f154a1c8ba29930935800ffdd">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.yuyh.easyadapter-library-1.0.0_9f7263756c83f6b882c223d9ebbcf13d5307fb06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_8bb8f7106dfee75442b5fe29cfd837d35d095d41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_338198e230e883acd6c9c82ca46ba5fc3096755c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\org.xutils\xutils\3.2.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="60a64f9fe24d179f9d98e70bdfb68416389ee764">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.2.2_928a6fa8864db586309025c02f3fdf7b82999fb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\cn.bmob.android\bmob-sdk\3.5.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\cn.bmob.android-bmob-sdk-3.5.0_d8d23759c66506e79d77e32bc7d1ffb699889384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.bartoszlipinski\recyclerviewheader2\2.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3324ea9b0bf0491c7d2304ffba1322d9c11ef017">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.bartoszlipinski-recyclerviewheader2-2.0.1_554b098e32ad1cf45b7318c2df6810aef8874892.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.roger.catloadinglibrary\catloadinglibrary\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a990fa3bd2a345eb88fb47e9910a5f647f978ab4">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.roger.catloadinglibrary-catloadinglibrary-1.0.1_156c16a0fdc62749781e7e0a5fd005ad45b07c5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\libs\imagepipeline-okhttp-v0.12.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07e5589059b558026075113c67c1344ec0ad91bf">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\imagepipeline-okhttp-v0.12.0_dc6e2e497e775c2dd3a956290569040bfde3a329.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\libs\NineOldAndroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c46613334bc9bd7f6bb241a0f4c541a91db8edd8">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\NineOldAndroids-2.4.0_ae0d2c27243d246b28dc64faf17b37e671215f74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.daidingkang\snapupcountdowntimerview\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5c459cab0f45048d094ae3611ba877c0ee568ae">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.daidingkang-snapupcountdowntimerview-1.0.0_f1f89e149872b0a0b91f2e6d5acdbae0b5408ed2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6ff5b01ea88720f7976a20eb8f3b3f69fa3d0814">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_ab9ffa7a1ba3c3963effde5e50ae2401b5115c52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_a9daf8630f002bf465752129918a3e31ef4a62c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_8bf952df6fcba01dc5e1d5b82ea2087e35dc28ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\volley_aa87b21aaaeb6cb66391910d2a264b946d237653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_e7daf37a47f9cd918ed1fa3bfa8a8d90d4832bfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_5b86a4bf6f11a6059a095123b0bb8d03b48b230e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\app\chaoshi\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.android-process-button\library\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="88ccdbf844995d5c9c845e087068d27588b2d026">
+        <dex dex="E:\app\chaoshi\app\build\intermediates\pre-dexed\debug\com.github.dmytrodanylyk.android-process-button-library-1.0.4_4e1e6261badd9cbc0af4401206883eec0d1bcf4b.jar" />
+    </item>
+
+</items>

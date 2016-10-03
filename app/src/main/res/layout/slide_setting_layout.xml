@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff3f3f3"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/setting_user_center"
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dip"
+          >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dd_userinfo_bg_2x" />
+
+            <ImageView
+                android:id="@+id/user_center_head_img"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10.0dip"
+                android:src="@drawable/dd_user_default_icon_2x" />
+
+            <TextView
+                android:id="@+id/user_center_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_center_head_img"
+                android:layout_centerHorizontal="true"
+                android:includeFontPadding="false"
+                android:shadowColor="#ff000000"
+                android:shadowDx="3.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="3.0"
+                android:text="@string/label_login_tip"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/setting_top_border"
+            layout="@layout/dd_setting_border" />
+
+        <include
+            android:id="@+id/setting_search_btn_line"
+            layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_search_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_search_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_search" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <include
+            android:id="@+id/setting_weather_btn_line"
+            layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_weather_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_weather_2x" />
+
+            <TextView
+                android:id="@+id/tv_weather"
+                style="@style/settingItemText"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@string/menu_weather" />
+
+            <TextView
+                android:id="@+id/setting_weather"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="3.0"
+                android:gravity="right"
+                android:padding="5.0dip"
+                android:singleLine="true"
+                android:textColor="#ff999999"
+                android:textSize="14.0sp" />
+
+            <ProgressBar
+                android:id="@+id/pb_loading"
+                style="@style/smallCustomProgressBar"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:layout_gravity="center|right"
+                 />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.0"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/setting_favor_btn_line"
+            layout="@layout/setting_line"
+            />
+
+        <LinearLayout
+            android:id="@+id/setting_favor_btn"
+            style="@style/setting_item"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_menu_favor_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_favor" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/setting_bg_btn_line"
+            layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_bg_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_backgroundmanager_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_bg_manager" />
+
+            <ImageView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.0"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/setting_bottom_border"
+            layout="@layout/dd_setting_border"
+            />
+
+        <include
+            android:id="@+id/setting_item_border"
+            layout="@layout/dd_setting_border"
+          />
+
+        <LinearLayout
+            android:id="@+id/setting_notify_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_msg_push_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_setting_notify" />
+
+            <CheckBox
+                android:id="@+id/setting_push"
+                android:layout_width="50.0dip"
+                android:layout_height="36.0dip"
+                android:background="@drawable/setting_switch_selector"
+                android:button="@null" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_clear_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_clear_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_clear_cache" />
+
+            <TextView
+                android:id="@+id/setting_clear_cache_size"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="3.0"
+                android:gravity="right"
+                android:padding="5.0dip"
+                android:singleLine="true"
+                android:textColor="#ff999999"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_update_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_update_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_check_update" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/dd_setting_border" />
+
+        <LinearLayout
+            android:id="@+id/setting_feedback_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_feedback_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_feed_back" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_recommend_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_recommend_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_recommend_person" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_qrcode_scanning"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_qrscan_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_recommend_qrcode_scanning" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/setting_qrcode_line"
+            layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_qrcode_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_myqr_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_recommend_qrcode" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_score_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_score_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_support_us" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_guide"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_guide_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="新手引导" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/setting_guide_line"
+            layout="@layout/setting_line" />
+
+        <LinearLayout
+            android:id="@+id/setting_about_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_setting_about_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_about_us" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/setting_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20.0dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ff666666"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@+id/setting_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:textColor="#ff999999"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+</ScrollView>

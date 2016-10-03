@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include
+        android:id="@+id/ic_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/header_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rl_cart_is_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:background="#FCFCFC"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/cart_is_empty_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/cart_is_empty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cart_is_empty_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="购物车为空" />
+    </RelativeLayout>
+
+    <!--
+     android:background="@mipmap/channel_expandablelistview_bg"
+     android:layout_below="@id/inc_top"  有点问题 why?
+    -->
+
+    <ExpandableListView
+        android:id="@+id/elv_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_head"
+        android:layout_above="@+id/ic_foot"
+        android:cacheColorHint="#00000000"
+        android:divider="#ebebeb"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="false"
+        android:groupIndicator="@null"
+        android:visibility="visible" >
+    </ExpandableListView>
+
+    <include
+        android:id="@+id/ic_foot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/foot_layout" />
+
+</RelativeLayout>

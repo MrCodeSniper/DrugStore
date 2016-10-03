@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eee" />
+
+        <LinearLayout
+            android:id="@+id/ll_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <!--<View-->
+                <!--android:id="@+id/indicator1"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:background="@drawable/shape_indicator_checked" />-->
+
+            <!--<View-->
+                <!--android:id="@+id/indicator2"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+            <!--<View-->
+                <!--android:id="@+id/indicator3"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+            <!--<View-->
+                <!--android:id="@+id/indicator4"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+
+            <!--<View-->
+                <!--android:id="@+id/indicator5"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+
+            <!--<View-->
+                <!--android:id="@+id/indicator6"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+            <!--<View-->
+                <!--android:id="@+id/indicator7"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+
+            <!--<View-->
+                <!--android:id="@+id/indicator8"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+            <!--<View-->
+                <!--android:id="@+id/indicator9"-->
+                <!--android:layout_width="8dp"-->
+                <!--android:layout_height="8dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:background="@drawable/shape_indicator_normal" />-->
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

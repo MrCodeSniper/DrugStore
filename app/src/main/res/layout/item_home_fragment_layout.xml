@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/itemShopName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemShopImg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/itemShopImg"
+        android:layout_toStartOf="@+id/itemShopImg"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="itemShopName" />
+
+    <ImageView
+        android:id="@+id/itemShopImg"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <RatingBar
+        android:id="@+id/itemRationgBar"
+        android:rating="2.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/itemShopName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/itemShopName"
+        android:layout_below="@+id/itemShopName"
+    />
+
+    <TextView
+        android:id="@+id/itemShopProce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemShopImg"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/itemShopImg"
+        android:layout_below="@+id/itemShopImg"
+        android:gravity="center"
+        android:text="$22.22" />
+
+
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/itemShopMaiJiaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/itemRationgBar"
+        android:text="itemShopMaiJiaName"
+    />
+
+    <TextView
+        android:id="@+id/itemShopStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemShopImg"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/itemShopImg"
+        android:layout_below="@+id/itemShopProce"
+        android:gravity="center"
+        android:text="88%" />
+    
+    <TextView
+        android:id="@+id/itemShopPingLun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/itemShopImg"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/itemShopImg"
+        android:layout_below="@+id/itemShopStyle"
+        android:gravity="center"
+        android:text="88%" />
+    
+    
+
+
+</RelativeLayout>

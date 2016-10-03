@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="6dp"
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="150dp"
+            android:id="@+id/imgeview"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_height="15dp"
+            android:id="@+id/tv_title"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="当当"
+            android:singleLine="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/tv_price"
+            android:layout_marginTop="2dp"
+            android:text="$988.08"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:singleLine="true"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <include layout="@layout/layout_title_bar" />
+
+
+        <hua.mao.deng.dangdang3c.ui.SlideMenu
+            android:visibility="gone"
+            android:id="@+id/slide_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativelayout_title_bar">
+
+            <include layout="@layout/layout_menu" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/viewpager_theme_scene"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+                        </android.support.v4.view.ViewPager>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:id="@+id/tv_phone_title"
+                                android:layout_width="match_parent"
+                                android:text="手机/配件"
+                                android:textSize="18sp"
+                                android:gravity="center_vertical"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_phone_title"
+                                android:layout_width="match_parent"
+                                android:visibility="gone"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_phone_phone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="手机"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_phone_parts"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="手机配件"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+
+
+                        </RelativeLayout>
+
+
+
+                        <hua.mao.deng.dangdang3c.ui.MySlideMenu
+                            android:id="@+id/slidemenu_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <hua.mao.deng.dangdang3c.ui.HorizontalListView
+                                    android:id="@+id/horizontal_phone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                </hua.mao.deng.dangdang3c.ui.HorizontalListView>
+
+                                <ImageView
+                                    android:id="@+id/iv_phone_out"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/slidemenu_out" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/iv_phone_back"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentLeft="true"
+                                    android:src="@drawable/slidemenu_back" />
+
+
+
+                                <hua.mao.deng.dangdang3c.ui.CustomGridView
+                                    android:id="@+id/gridview_phone"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/iv_phone_back"
+                                    android:horizontalSpacing="10dp"
+                                    android:numColumns="3">
+
+                                </hua.mao.deng.dangdang3c.ui.CustomGridView>
+
+                            </RelativeLayout>
+
+
+                        </hua.mao.deng.dangdang3c.ui.MySlideMenu>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/tv_computer_title"
+                                android:layout_width="match_parent"
+                                android:text="电脑办公"
+                                android:textSize="18sp"
+                                android:gravity="center_vertical"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_computer_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:visibility="gone"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_computer_machine"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="电脑整机"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_computer_storage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="存储网络"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_computer_office"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="外设办公"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+
+                        <hua.mao.deng.dangdang3c.ui.MySlideMenu
+                            android:id="@+id/slidemenu_computer"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <hua.mao.deng.dangdang3c.ui.HorizontalListView
+                                    android:id="@+id/horizontal_computer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                </hua.mao.deng.dangdang3c.ui.HorizontalListView>
+
+                                <ImageView
+                                    android:id="@+id/iv_computer_out"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/slidemenu_out" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/iv_computer_back"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentLeft="true"
+                                    android:src="@drawable/slidemenu_back" />
+
+
+
+                                <hua.mao.deng.dangdang3c.ui.CustomGridView
+                                    android:id="@+id/gridview_computer"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/iv_computer_back"
+                                    android:horizontalSpacing="10dp"
+                                    android:numColumns="3">
+
+                                </hua.mao.deng.dangdang3c.ui.CustomGridView>
+
+                            </RelativeLayout>
+
+
+                        </hua.mao.deng.dangdang3c.ui.MySlideMenu>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/tv_digital_title"
+                                android:layout_width="match_parent"
+                                android:text="数码影音"
+                                android:textSize="18sp"
+                                android:gravity="center_vertical"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_digital_title"
+                                android:layout_width="match_parent"
+                                android:visibility="gone"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_digital_apple"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="苹果/配件"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_digital_camera"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="摄像摄影"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_digital_video"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="视听影音"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+
+                        <hua.mao.deng.dangdang3c.ui.MySlideMenu
+                            android:id="@+id/slidemenu_digital"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <hua.mao.deng.dangdang3c.ui.HorizontalListView
+                                    android:id="@+id/horizontal_digital"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                </hua.mao.deng.dangdang3c.ui.HorizontalListView>
+
+                                <ImageView
+                                    android:id="@+id/iv_digital_out"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/slidemenu_out" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/iv_digital_back"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentLeft="true"
+                                    android:src="@drawable/slidemenu_back" />
+
+
+
+                                <hua.mao.deng.dangdang3c.ui.CustomGridView
+                                    android:id="@+id/gridview_digital"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/iv_digital_back"
+                                    android:horizontalSpacing="10dp"
+                                    android:numColumns="3">
+
+                                </hua.mao.deng.dangdang3c.ui.CustomGridView>
+
+                            </RelativeLayout>
+
+
+                        </hua.mao.deng.dangdang3c.ui.MySlideMenu>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:id="@+id/tv_appliances_title"
+                                android:layout_width="match_parent"
+                                android:text="小家电"
+                                android:textSize="18sp"
+                                android:gravity="center_vertical"
+                                android:layout_height="match_parent" />
+                            <LinearLayout
+                                android:id="@+id/linearlayout_appliances_title"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_appliances_kitchen"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="厨电"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_appliances_life"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="生活"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_appliances_care"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="个护"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+
+                        <hua.mao.deng.dangdang3c.ui.MySlideMenu
+                            android:id="@+id/slidemenu_appliances"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <hua.mao.deng.dangdang3c.ui.HorizontalListView
+                                    android:id="@+id/horizontal_appliances"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                </hua.mao.deng.dangdang3c.ui.HorizontalListView>
+
+                                <ImageView
+                                    android:id="@+id/iv_appliances_out"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/slidemenu_out" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/iv_appliances_back"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentLeft="true"
+                                    android:src="@drawable/slidemenu_back" />
+
+
+
+                                <hua.mao.deng.dangdang3c.ui.CustomGridView
+                                    android:id="@+id/gridview_appliances"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/iv_appliances_back"
+                                    android:horizontalSpacing="10dp"
+                                    android:numColumns="3">
+
+                                </hua.mao.deng.dangdang3c.ui.CustomGridView>
+
+                            </RelativeLayout>
+
+
+                        </hua.mao.deng.dangdang3c.ui.MySlideMenu>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:id="@+id/tv_household_title"
+                                android:layout_width="match_parent"
+                                android:text="大家电"
+                                android:textSize="18sp"
+                                android:gravity="center_vertical"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_household_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:visibility="gone"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_household_refrigerator"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="冰箱"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_household_television"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="电视"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/tv_household_conditioner"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:paddingLeft="5dp"
+                                    android:paddingRight="5dp"
+                                    android:text="空调"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+
+
+                        <hua.mao.deng.dangdang3c.ui.MySlideMenu
+                            android:id="@+id/slidemenu_household"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+
+                                <hua.mao.deng.dangdang3c.ui.HorizontalListView
+                                    android:id="@+id/horizontal_household"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1">
+
+                                </hua.mao.deng.dangdang3c.ui.HorizontalListView>
+
+                                <ImageView
+                                    android:id="@+id/iv_household_out"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/slidemenu_out" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/iv_household_back"
+                                    android:layout_width="12dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentLeft="true"
+                                    android:src="@drawable/slidemenu_back" />
+
+
+
+                                <hua.mao.deng.dangdang3c.ui.CustomGridView
+                                    android:id="@+id/gridview_household"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_toRightOf="@+id/iv_household_back"
+                                    android:horizontalSpacing="10dp"
+                                    android:numColumns="3">
+
+                                </hua.mao.deng.dangdang3c.ui.CustomGridView>
+
+                            </RelativeLayout>
+
+
+                        </hua.mao.deng.dangdang3c.ui.MySlideMenu>
+
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+
+        </hua.mao.deng.dangdang3c.ui.SlideMenu>
+
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true" />
+
+
+
+
+</RelativeLayout>

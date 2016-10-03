@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="10.0dip"
+        android:text="版权申明"
+        android:textColor="#ff000000"
+        android:textSize="20.0sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/web_report"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/report_btns_round_bg"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_report"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/report_edit_bg"
+            android:focusable="true"
+            android:gravity="center|left|top"
+            android:includeFontPadding="false"
+            android:lines="3"
+            android:maxLength="400"
+            android:padding="2.0dip"
+            android:textColor="#ff000000" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20.0dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_report"
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/user_center_report_btn"
+                android:padding="2.0dip"
+                android:text="提交"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0.0dip"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/user_center_gray_selector"
+                android:padding="2.0dip"
+                android:text="取消"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
