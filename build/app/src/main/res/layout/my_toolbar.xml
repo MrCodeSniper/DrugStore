@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.example.android.chaoshi.ui.view.MyToolbar
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        app:isShowSearchView="true"
+        android:layout_height="50dp">
+
+
+    </com.example.android.chaoshi.ui.view.MyToolbar>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/relate_me_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/relate_me_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+       >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="#ffd4d4d4" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="49.0dip"
+            android:background="#b2f8f8f8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/menu_choose_all"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/label_chose_all"
+                android:textSize="15.0sp" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:background="#ffd4d4d4" />
+
+            <TextView
+                android:id="@+id/menu_delete"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/label_delete"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

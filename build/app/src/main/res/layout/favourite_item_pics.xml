@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dd_list_item_selector"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/favor_del_chose"
+        android:layout_width="15.0dip"
+        android:layout_height="15.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/dd_icon_red_checked_2x"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/favor_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:minLines="2"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="17.0dip"
+            android:text="favor_title"
+            android:textColor="#ff333333"
+            android:textSize="15.0sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/favor_pic1"
+                android:layout_width="94.0dip"
+                android:layout_height="66.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/favor_pic2"
+                android:layout_width="94.0dip"
+                android:layout_height="66.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:src="@mipmap/ic_launcher" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip">
+
+                <ImageView
+                    android:id="@+id/favor_pic3"
+                    android:layout_width="94.0dip"
+                    android:layout_height="66.0dip"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/favor_pic_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right|top"
+                    android:background="#33000000"
+                    android:includeFontPadding="false"
+                    android:padding="2.0dip"
+                    android:text="4"
+                    android:textColor="#ffffffff"
+                    android:textSize="8.0sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#fff1f1f1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25.0dip"
+            android:background="#fffcfcfc"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/favor_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:includeFontPadding="false"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:paddingTop="2.0dip"
+                android:text="favor_tag"
+                android:textColor="#fff4715f"
+                android:textSize="11.0sp" />
+
+            <TextView
+                android:id="@+id/favor_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:includeFontPadding="false"
+                android:paddingRight="10.0dip"
+                android:text="favor_time"
+                android:textColor="#ff999999"
+                android:textSize="10.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#fff1f1f1" />
+    </LinearLayout>
+</LinearLayout>

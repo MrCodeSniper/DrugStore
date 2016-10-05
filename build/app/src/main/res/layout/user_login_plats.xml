@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="15.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8.0dip"
+                android:src="@drawable/dd_login_icon_name_2x" />
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:background="@null"
+                android:hint="用户名/手机号/邮箱"
+                android:includeFontPadding="false"
+                android:maxLength="30"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="7.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="5.0dip"
+                android:singleLine="true"
+                android:textColor="#666"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="8dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8.0dip"
+                android:src="@drawable/dd_login_icon_psw_2x" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="0.0dip"
+                android:layout_height="45.0dip"
+                android:layout_weight="3.0"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/label_password"
+                android:includeFontPadding="false"
+                android:inputType="textPassword"
+                android:maxLength="30"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="7.0dip"
+                android:paddingTop="5.0dip"
+                android:singleLine="true"
+                android:textColor="#666"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/forget_password"
+                android:layout_width="0.0dip"
+                android:layout_height="45.0dip"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/label_forget_psw"
+                android:includeFontPadding="false"
+                android:maxLength="30"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="5.0dip"
+                android:singleLine="true"
+                android:textColor="@color/user_login_edit"
+                android:textSize="10.0sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/apb_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="登入"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            app:pb_colorComplete="@color/green_complete"
+            app:pb_colorError="@color/red_error"
+            app:pb_colorNormal="@color/blue_normal"
+            app:pb_colorPressed="@color/blue_pressed"
+            app:pb_colorProgress="@color/purple_progress"
+            app:pb_textComplete="登入成功"
+            app:pb_textError="登入失败"
+            app:pb_textProgress="请稍等..." />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/apb_logout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:text="登出"
+            android:visibility="gone"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            app:pb_colorComplete="@color/green_complete"
+            app:pb_colorError="@color/red_error"
+            app:pb_colorNormal="@color/blue_normal"
+            app:pb_colorPressed="@color/blue_pressed"
+            app:pb_colorProgress="@color/purple_progress"
+            app:pb_textComplete="登出成功"
+            app:pb_textError="登出失败"
+            app:pb_textProgress="请稍等..." />
+
+        <LinearLayout
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="1.0dip"
+                android:layout_weight="1.0"
+                android:background="#fff3f3f3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:text="@string/login_other_plat"
+                android:textColor="#ffcbcbcb"
+                android:textSize="14.0sp" />
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="1.0dip"
+                android:layout_weight="1.0"
+                android:background="#fff3f3f3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/user_login_other_layout"
+            layout="@layout/user_login_plats_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/login_register_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:clickable="true"
+        android:gravity="bottom|center"
+        android:includeFontPadding="false"
+        android:paddingBottom="40.0dip"
+        android:text="@string/hint_regist_label"
+        android:textColor="@color/user_login_edit" />
+</LinearLayout>

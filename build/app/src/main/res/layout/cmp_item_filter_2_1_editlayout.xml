@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20.0dip"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_min_prices"
+            android:layout_width="80.0dip"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/cmp_filter_multiple_edit_text"
+            android:gravity="center"
+            android:hint="最低价"
+            android:includeFontPadding="false"
+            android:inputType="number"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5.0dip"
+            android:includeFontPadding="false"
+            android:text="元"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/price_divider"
+            android:layout_width="20.0dip"
+            android:layout_height="1.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.0dip"
+            android:background="#ffd3d3d3" />
+
+        <EditText
+            android:id="@+id/et_max_prices"
+            android:layout_width="80.0dip"
+            android:layout_height="30.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/cmp_filter_multiple_edit_text"
+            android:gravity="center"
+            android:hint="最高价"
+            android:includeFontPadding="false"
+            android:inputType="number"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5.0dip"
+            android:includeFontPadding="false"
+            android:text="元"
+            android:textSize="12.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="60.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/cmp_filter_multiple_btn"
+        android:text="确定"
+        android:textSize="12.0sp" />
+</RelativeLayout>

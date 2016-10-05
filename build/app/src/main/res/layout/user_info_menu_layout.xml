@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff474747" android:layout_width="148.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/info_menu_mark" android:background="@drawable/user_info_menu_selector" android:paddingLeft="15.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:background="@drawable/dd_menu_user_mark" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/info_setting_mark" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/info_menu_follow" android:background="@drawable/user_info_menu_selector" android:paddingLeft="15.0dip" android:paddingTop="-0.5dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:id="@+id/info_menu_follow_icon" android:background="@drawable/dd_menu_user_add" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@+id/info_menu_follow_label" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/info_setting_follow" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/info_menu_blacklist" android:background="@drawable/user_info_menu_selector" android:paddingLeft="15.0dip" android:paddingTop="-0.5dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:background="@drawable/dd_menu_user_blacklist" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@+id/info_menu_blacklist_label" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/info_setting_blacklist_add" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/info_menu_report" android:background="@drawable/user_info_menu_selector" android:paddingLeft="15.0dip" android:paddingTop="-0.5dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:background="@drawable/dd_menu_user_report" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@+id/info_menu_report_label" android:paddingLeft="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/info_setting_report" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

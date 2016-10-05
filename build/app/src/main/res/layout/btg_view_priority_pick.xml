@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/pickerLayout" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/btg_btn_priority_0" android:layout_weight="1.0" style="@style/btg_tag_priority_text_light_content" />
+    <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/btg_btn_priority_1" android:layout_weight="1.0" style="@style/btg_tag_priority_text_light_content" />
+    <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/btg_btn_priority_2" android:layout_weight="1.0" style="@style/btg_tag_priority_text_light_content" />
+    <Button android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableTop="@drawable/btg_btn_priority_3" android:layout_weight="1.0" style="@style/btg_tag_priority_text_light_content" />
+</LinearLayout>

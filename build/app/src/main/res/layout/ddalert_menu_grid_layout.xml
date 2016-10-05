@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ddalert_corners_circle_normal"
+        android:orientation="vertical"
+        android:paddingBottom="20.0dip"
+        android:paddingLeft="20.0dip"
+        android:paddingRight="20.0dip"
+        android:paddingTop="20.0dip">
+
+        <TextView
+            android:id="@+id/ddalert_menu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="#ff666666"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/ddalert_menu_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="260.0dip"
+            android:cacheColorHint="#00000000"
+            android:listSelector="#00000000"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:verticalSpacing="17.0dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ddalert_menu_cancel_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginTop="@dimen/ddalert_menu_cancel_marginTop"
+        android:background="@drawable/ddalert_corners_circle_selector"
+        android:gravity="center"
+        android:paddingBottom="@dimen/ddalert_menu_list_item_padding"
+        android:paddingTop="@dimen/ddalert_menu_list_item_padding"
+        android:text="@string/ddalert_menu_cancel_text"
+        android:textColor="@color/ddalert_cancel_color"
+        android:textSize="@dimen/ddalert_menu_cancel_textSize" />
+</LinearLayout>

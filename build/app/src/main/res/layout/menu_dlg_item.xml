@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_comment_icon"
+                android:layout_width="@dimen/mix2_item_width"
+                android:layout_height="@dimen/mix2_item_height"
+                android:background="@color/mix2_btn_disable">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu_comment_2x" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_comment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/mix2_comment"
+                android:textColor="@color/mix2_item_title"
+                android:textSize="@dimen/mix2_item_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/rl_favor_icon"
+                android:layout_width="@dimen/mix2_item_width"
+                android:layout_height="@dimen/mix2_item_height">
+
+                <ImageView
+                    android:id="@+id/iv_favor_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu_collect_2x" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_favor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/mix2_favor"
+                android:textColor="@color/mix2_item_title"
+                android:textSize="@dimen/mix2_item_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_share_icon"
+                android:layout_width="@dimen/mix2_item_width"
+                android:layout_height="@dimen/mix2_item_height">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu_share_2x" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_share_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/mix2_share"
+                android:textColor="@color/mix2_item_title"
+                android:textSize="@dimen/mix2_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17.0dip"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_up_icon"
+                android:layout_width="@dimen/mix2_item_width"
+                android:layout_height="@dimen/mix2_item_height">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu_up_2x" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_up_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/mix2_ding"
+                android:textColor="@color/mix2_item_title"
+                android:textSize="@dimen/mix2_item_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25.0dip"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_down_icon"
+                android:layout_width="@dimen/mix2_item_width"
+                android:layout_height="@dimen/mix2_item_height">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu_down_2x" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_down_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8.0dip"
+                android:text="@string/mix2_cai"
+                android:textColor="@color/mix2_item_title"
+                android:textSize="@dimen/mix2_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

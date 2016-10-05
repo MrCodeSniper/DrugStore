@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/home_vp_title"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"/>
+    
+    <scm.com.looc.widget.XListView
+        android:id="@+id/home_lv_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    
+</LinearLayout>

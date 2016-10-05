@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="15.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="20.0dip"
+            android:paddingTop="20.0dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="已向手机"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/check_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="发送验证码"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8.0dip"
+                android:src="@drawable/dd_login_icon_code_2x" />
+
+            <EditText
+                android:id="@+id/check_code"
+                android:layout_width="0.0dip"
+                android:layout_height="45.0dip"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:hint="@string/hint_verify_code"
+                android:includeFontPadding="false"
+                android:maxLength="30"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="7.0dip"
+                android:paddingTop="5.0dip"
+                android:singleLine="true"
+                android:textColor="@color/user_login_edit"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/check_code_resend"
+                android:layout_width="wrap_content"
+                android:layout_height="45.0dip"
+                android:background="@null"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingBottom="5.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingTop="5.0dip"
+                android:singleLine="true"
+                android:textColor="@color/user_login_edit"
+                android:textSize="10.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_password_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="9.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd_login_icon_psw_2x" />
+
+            <EditText
+                android:id="@+id/check_password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:background="@null"
+                android:hint="@string/hint_enter_psw"
+                android:includeFontPadding="false"
+                android:inputType="textPassword"
+                android:textColor="@color/user_login_edit"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/check_confirm_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/user_info_edit_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="9.0dip">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dd_login_icon_psw_2x" />
+
+            <EditText
+                android:id="@+id/check_password_confirm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:background="@null"
+                android:hint="@string/hint_confirm_psw"
+                android:includeFontPadding="false"
+                android:inputType="textPassword"
+                android:textColor="@color/user_login_edit"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/check_enter"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:onClick="register"
+            android:text="@string/label_commit"
+            android:textColor="@color/white"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+</LinearLayout>

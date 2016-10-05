@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="100dp">
+
+
+
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imgeview"
+
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="90dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="13dp"
+            android:id="@+id/tv_title"
+            android:textSize="10sp"
+            android:text="sdfsdfsafsdafsadfsdfsd"
+            android:singleLine="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:id="@+id/tv_price"
+            android:layout_gravity="center_horizontal"
+            android:text="$988.08"
+            android:textSize="12sp"
+            android:singleLine="true"/>
+
+
+
+</LinearLayout>

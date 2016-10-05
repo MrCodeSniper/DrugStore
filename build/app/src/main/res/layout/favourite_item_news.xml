@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dd_list_item_selector"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/favor_del_chose"
+        android:layout_width="15.0dip"
+        android:layout_height="15.0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/dd_icon_red_checked_2x"
+        android:text="favor_del_chose"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10.0dip">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/favor_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingTop="7.0dip"
+                    android:singleLine="true"
+                    android:text="favor_title"
+                    android:textColor="#ff333333"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:id="@+id/favor_brief"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:paddingTop="9.0dip"
+                    android:singleLine="true"
+                    android:text="favor_brief"
+                    android:textColor="#ff999999"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="72.0dip"
+                android:layout_height="54.0dip"
+                android:layout_marginLeft="20.0dip">
+
+                <ImageView
+                    android:id="@+id/favor_pic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#fff1f1f1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25.0dip"
+            android:background="#fffcfcfc"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/favor_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:includeFontPadding="false"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip"
+                android:paddingTop="2.0dip"
+                android:text="文稿"
+                android:textColor="#fff4715f"
+                android:textSize="11.0sp" />
+
+            <TextView
+                android:id="@+id/favor_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:includeFontPadding="false"
+                android:paddingRight="10.0dip"
+                android:text="卖家名"
+                android:textColor="#ff999999"
+                android:textSize="10.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="#fff1f1f1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <Spinner
+            android:id="@+id/sp_search"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:id="@+id/input_layout"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20.0dip"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et1_Search"
+                android:layout_width="0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/cmp_filter_multiple_edit_text"
+                android:gravity="center"
+                android:hint=""
+                android:includeFontPadding="false"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="12.0sp" />
+
+
+            <View
+                android:id="@+id/price_divider"
+                android:layout_width="20.0dip"
+                android:layout_height="1.0dip"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10.0dip"
+                android:background="#ffd3d3d3" />
+
+            <EditText
+                android:id="@+id/et2_Search"
+                android:layout_width="0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/cmp_filter_multiple_edit_text"
+                android:gravity="center"
+                android:hint=""
+                android:includeFontPadding="false"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="12.0sp" />
+
+            <Button
+                android:id="@+id/btn_Submit"
+                android:layout_width="0dip"
+                android:layout_height="30.0dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/cmp_filter_multiple_btn"
+                android:text="确定"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.example.android.chaoshi.widget.XListView
+        android:id="@+id/lv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

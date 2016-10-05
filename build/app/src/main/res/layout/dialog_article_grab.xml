@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/giv_diaoqian" android:visibility="gone" android:layout_width="375.0dip" android:layout_height="663.0dip" android:src="@drawable/diaoqian" />
+    <RelativeLayout android:layout_width="235.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/btn_close" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/bg_btn_close_dialog" android:scaleType="fitCenter" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/lay_text" android:background="@drawable/bg_img_hongbao" android:layout_width="235.0dip" android:layout_height="299.0dip" android:layout_below="@+id/btn_close" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:textSize="@dimen/font_size_large_40" android:textColor="@color/iOS7_f0__district" android:id="@+id/grab_win_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:includeFontPadding="false" />
+                <TextView android:textSize="@dimen/font_size_little_large" android:textColor="@color/iOS7_f0__district" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/pay_account_unit" android:includeFontPadding="false" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/font_size_normal" android:textColor="@color/iOS7_f0__district" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/grab_hongbao_owner" android:background="@drawable/shape_a0_1" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:text="" />
+            <TextView android:textSize="@dimen/font_size_normal" android:textColor="@color/iOS7_a0__district" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/grab_text_give_money" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/zhanwei_lay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+            <TextView android:textSize="@dimen/font_size_small2" android:textColor="#ffface36" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/grab_miling" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="" android:maxLines="2" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/font_size_little_large" android:textStyle="bold" android:textColor="@color/iOS7_f0__district" android:id="@+id/btn_share" android:background="@drawable/bg_btn_grab_share" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@+id/lay_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dd_list_item_selector"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10.0dip">
+
+        <TextView
+            android:id="@+id/favor_del_chose"
+            android:layout_width="15.0dip"
+            android:layout_height="15.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5.0dip"
+            android:background="@drawable/dd_icon_red_checked_2x"
+           />
+
+        <TextView
+            android:id="@+id/favor_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lineSpacingMultiplier="1.2"
+            android:singleLine="true"
+            android:text="该收藏类型暂不支持，请更新版本显示"
+            android:textColor="#ff333333"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#fff1f1f1" />
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/dd_setting_border" />
+
+    <LinearLayout
+        android:id="@+id/usercenter_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ViewStub
+            android:id="@+id/vs_menu_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_message" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_my_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_myinfo" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_friends" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_fans"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_fans" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_blacklist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_blacklist" />
+
+        <include
+            android:id="@+id/border_group_seekhelp"
+            layout="@layout/dd_setting_border" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_seekhelp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_seekhelp" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_comment" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_joint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_joint" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_favor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_favorite" />
+
+        <ViewStub
+            android:id="@+id/vs_menu_publish"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/usercenter_menu_publish" />
+
+        <include
+            android:id="@+id/border_group_setting"
+            layout="@layout/dd_setting_border" />
+
+        <LinearLayout
+            android:id="@+id/menu_setting_btn"
+            style="@style/setting_item">
+
+            <ImageView
+                android:layout_width="@dimen/setting_icon_size"
+                android:layout_height="@dimen/setting_icon_size"
+                android:src="@drawable/dd_menu_setting_2x" />
+
+            <TextView
+                style="@style/settingItemText"
+                android:text="@string/menu_setting" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/enter" />
+        </LinearLayout>
+
+        <include layout="@layout/dd_setting_border" />
+
+        <Button
+            android:id="@+id/menu_logout_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="#fff4715f"
+            android:includeFontPadding="false"
+            android:text="@string/label_logout"
+            android:textColor="#ffffffff" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="25.0dip"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingLeft="15.0dip"
+    android:paddingRight="15.0dip"
+    android:paddingTop="5.0dip">
+
+    <LinearLayout
+        android:id="@+id/ll_date_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/mypage_publish_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="\ 12"
+            android:textColor="#ff000000"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="-"
+            android:textColor="#ff000000"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/mypage_publish_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="\ 18"
+            android:textColor="#ff000000"
+            android:textSize="24.0sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mypage_image_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:background="@drawable/user_page_seekhelp_item_selector">
+
+        <ImageView
+            android:id="@+id/mypage_publish_image"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_mypage_header_bg" />
+
+        <TextView
+            android:id="@+id/mypage_publish_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/mypage_publish_image"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:singleLine="true"
+            android:textColor="#ff000000"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@+id/mypage_publish_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/mypage_publish_image"
+            android:layout_toRightOf="@+id/mypage_publish_image"
+            android:includeFontPadding="false"
+            android:paddingLeft="10.0dip"
+            android:textColor="#ffb4b4b4"
+            android:textSize="11.0sp" />
+    </RelativeLayout>
+</LinearLayout>

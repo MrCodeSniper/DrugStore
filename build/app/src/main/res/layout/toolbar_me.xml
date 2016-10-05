@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/toolbar_leftbutton"
+        android:padding="4dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/common_toobar_icon_avatar_with_bg"
+        />
+
+
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/toolbar_searchview"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#eee"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:drawableLeft="@drawable/common_toobar_icon_search"
+        style="@style/search_view"
+        android:textColorHint="#ccc"
+        android:textColor="#ccc"
+        android:hint="请输入搜索内容"
+
+
+        />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@android:color/transparent"
+        android:id="@+id/toolbar_rightButton"
+        android:padding="4dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/scan_mian_scan"
+       />
+
+</LinearLayout>

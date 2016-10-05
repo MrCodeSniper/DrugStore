@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/btg_report_member_item_width" android:layout_height="@dimen/btg_report_member_item_height" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/iconImage" android:layout_width="@dimen/btg_report_member_icon_size" android:layout_height="@dimen/btg_report_member_icon_size" android:src="@drawable/btg_icon_account" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@+id/checkedImage" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btg_icon_checkmark" android:layout_alignRight="@id/iconImage" android:layout_alignBottom="@id/iconImage" />
+        <TextView android:id="@+id/nameText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/btg_global_margin_tiny" android:maxWidth="@dimen/btg_report_member_icon_size" android:layout_below="@id/iconImage" android:layout_centerHorizontal="true" style="@style/btg_global_text_gray" />
+    </RelativeLayout>
+</RelativeLayout>
